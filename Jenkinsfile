@@ -14,13 +14,7 @@ parameters {
         git branch:"${params.branch}",url:"${params.git_url}"
         echo "${version}"
         echo "${params.branch}"
-        sh '''
-        #!/bin/bash
-        echo "${node_labels}"
-        echo "${name}"
-        echo "${node_labels}"
-        echo "${name}"
-        '''
+       
       }
     }
   }
