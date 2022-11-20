@@ -13,6 +13,7 @@ parameters {
       steps{
         git branch:"${params.branch}",url:"${params.git_url}"
         echo "${name}"
+        echo "${date}"
         echo "${repo_version}"
         echo "${params.branch}"
        
